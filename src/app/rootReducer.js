@@ -5,10 +5,10 @@ import bannerReducer from '../features/banner/redux/bannerSlice';
 import watchlistReducer from '../features/watchlist/redux/watchlistSlice';
 
 const rootReducer = combineReducers({
-  movie: moviesReducer,
-  pagination: paginationReducer,
-  banner: bannerReducer,
-    watchlist: watchlistReducer,
+  movie        : moviesReducer,
+  pagination   : paginationReducer,
+  banner       : bannerReducer,
+  watchlist    : watchlistReducer,
 });
 
 export default rootReducer;
