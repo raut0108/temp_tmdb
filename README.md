@@ -1,4 +1,4 @@
-<img width="1862" height="958" alt="image" src="https://github.com/user-attachments/assets/737dd8b7-5745-4436-8d87-1718d467b9b6" /># React + Vite
+
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
@@ -83,13 +83,5 @@ src/
     ...               # Global and modular styles
   utils/
     Helpers/          # Utility/helper functions
-
-## Images
-
-Homepage
-
-<img width="1862" height="958" alt="image" src="https://github.com/user-attachments/assets/fe68b25d-2b15-4da3-af00-c426b3c7c590" />
-
-
 
 
