@@ -35,7 +35,7 @@ The app lets users browse popular movies, view details, manage a watchlist, and 
 ## ✨ Features
 
 - Browse popular and trending movies fetched from TMDB.[web:1]
-- View movie details such as title, rating, overview, release date, and poster.
+- View movie details such as title, rating, overview, release date, poster and trailer by clicking movie title.
 - Add and remove movies from a personal watchlist using global state (Redux Toolkit).
 - Centralized store setup using Redux Toolkit and `@reduxjs/toolkit` slices.[page:2]
 - Global layout and shared UI components for consistent look and feel.[page:2]
