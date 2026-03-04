@@ -11,6 +11,15 @@ Currently, two official plugins are available:
 
 The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
+
+## Note
+
+This app uses the TMDB API. In some regions (including India), TMDB requests may be blocked without a VPN.  
+- If you cannot see movie data on the live demo, please enable a VPN.  
+- Screenshots and a demo video are included here to showcase full functionality.
+
+
+
 ## Project Structure
 
 

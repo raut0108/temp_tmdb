@@ -12,7 +12,6 @@ function fetchTrendingMovies(pageNo){
     axios
       .get(url)
       .then((response) => {
-        console.log(response.data);
         dispatch(setMovies(response?.data?.results));
       })
       .catch((error) => {

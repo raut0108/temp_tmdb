@@ -10,8 +10,7 @@ function fetchbannerMovies(){
       const url = `${BASE_URL}trending/movie/day?api_key=${API_KEY}`;
       dispatch(setLoader())
       axios.get(url).then((response) => {
-        console.log(response.data);
-        const top5movie = response?.data?.results?.slice(0, 5);
+       const top5movie = response?.data?.results?.slice(0, 5);
        dispatch( setTop5Movies(
           top5movie.map((movie) => {
             let cleaned_Title = movie?.title.replace(/“|”/g, '');
@@ -23,8 +22,7 @@ function fetchbannerMovies(){
         ));
       })
      .catch ((error) => {
-      console.log(error.message)
-      dispatch(setErr(error));
+       dispatch(setErr(error));
       })
     .finally(() => {
       dispatch(stopLoaderB());

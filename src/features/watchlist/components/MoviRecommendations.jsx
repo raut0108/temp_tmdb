@@ -35,7 +35,7 @@ function MoviRecommendations({ watchList, setShowModal }) {
       ) : (
         <div className="fixed inset-0 z-50 overflow-y-auto backdrop-blur-sm bg-black/50 flex justify-center items-center h-screen">
           <div className="bg-white p-6 rounded-lg shadow-lg w-3/4 h-3/4 overflow-auto relative">
-            <h2 className="text-2xl font-bold mb-4">AI Recommended Movies</h2>
+            <h2 className="text-2xl font-bold mb-4">Recommended movies based on your watchList</h2>
             {loader ? (
               <div className="flex justify-center items-center py-8">
                 <Spinner />
