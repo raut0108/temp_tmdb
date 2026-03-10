@@ -1,4 +1,4 @@
-import { handler } from './Netlify/Functions/movies.js';
+import { handler } from './netlify/functions/movies.js';
 
 (async () => {
   const response = await handler();
