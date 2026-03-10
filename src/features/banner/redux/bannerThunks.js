@@ -8,10 +8,10 @@ function fetchbannerMovies(){
 
     return async (dispatch) => {
       //const url = `${BASE_URL}trending/movie/day?api_key=${API_KEY}`;
-        const url = "/.netlify/functions/movies"
-      dispatch(setLoader())
+        const url = "/.netlify/functions/movies";
+      dispatch(setLoader());
       axios.get(url).then((response) => {
-       const top5movie = response?.data?.results?.slice(0, 5);
+       const top5movie = response?.data?.results?.slice(0, 5) || [];
        dispatch( setTop5Movies(
           top5movie.map((movie) => {
             let cleaned_Title = movie?.title.replace(/“|”/g, '');
